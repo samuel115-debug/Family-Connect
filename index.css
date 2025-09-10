@@ -1,0 +1,115 @@
+body{
+  background: url(../family\ connect\ backgroung.png) no-repeat center/cover;
+  height: 97vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial;
+  color: white;
+}
+
+main{
+  height: 500px;
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  text-align: center;
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+}
+
+#first{
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: url(../icons/name.png) no-repeat 10px center;
+  background-size: 25px;
+  padding-left: 45px;
+  color: white;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+#first::placeholder{
+  color: white;
+}
+#last{
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: url(../icons/name.png) no-repeat 10px center;
+  background-size: 25px;
+  padding-left: 45px;
+  color: white;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+#last::placeholder{
+  color: white;
+}
+
+#email{
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: url(../icons/email.png) no-repeat 10px center;
+  background-size: 25px;
+  padding-left: 45px;
+  color: white;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+#email::placeholder{
+  color: white;
+}
+
+
+#password{
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: url(../icons/password.png) no-repeat 10px center;
+  background-size: 25px;
+  padding-left: 45px;
+  color: white;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+#password::placeholder{
+  color: white;
+}
+
+#submit{
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgb(248, 247, 247);
+  font-size: 17px;
+  margin-top: 50px;
+}
+
+#submit:hover{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#submit:active{
+  background-color: rgba(255, 255, 255, 0);
+}
